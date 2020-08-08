@@ -1,0 +1,27 @@
+{
+  "name": "js-basic",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhukouskayat/JS-Basic.git"
+  },
+  "author": "Zhukouskaya Tatsiana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhukouskayat/JS-Basic/issues"
+  },
+  "homepage": "https://github.com/zhukouskayat/JS-Basic#readme",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "prettier": "2.0.5"
+  }
+}
