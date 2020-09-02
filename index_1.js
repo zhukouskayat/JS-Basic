@@ -44,8 +44,20 @@ console.log(`Среднее арифметическое всех чисел м�
 
 console.log(`Задание 1.4`);
 
-const min = Math.min.apply(null, a);
-const max = Math.max.apply(null, a);
+let max = a[0];
+let min = a[0];
 
-console.log(`Минимальное число в массиве - ${min}`);
+for (let i = 1; i < a.length; i += 1) {
+  if (max < a[i]) {
+    max = a[i];
+  }
+}
+
+for (let i = 1; i < a.length; i += 1) {
+  if (min > a[i]) {
+    min = a[i];
+  }
+}
+
 console.log(`Максимальное число в массиве - ${max}`);
+console.log(`Минимальное число в массиве - ${min}`);
