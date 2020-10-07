@@ -119,7 +119,7 @@ class TaxCalculator {
   }
 
   checkIncomeObject(income) {
-    return Object.keys(income).every((key) => key.length < 0, true)
+    return Object.keys(income).every((key) => key.length < 0);
   }
 
   checkIncomeObjectFormat(income) {
@@ -198,7 +198,6 @@ try {
   if (e instanceof IncomeWrongFromat) {
     console.log(e.incomeValue);
   }
-
 } finally {
   console.log("Always works");
 }
